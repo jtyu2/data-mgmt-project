@@ -14,3 +14,31 @@ Jonathan: Help fill missing values, work on initial data integration including s
 
 Mehr & Jonathan: Conduct analysis and create visualizations, document steps need to reproduce the analysis
 
+Research question
+What is the relationship between unemployment rates and median household income in the United States? How does it vary by state and time?
+
+Datasets
+
+Unemployment Rate Data
+U.S. unemployment rate over time
+Via Federal Reserve Economic Data (FRED)
+Access via API
+Has state and date info
+Median household income
+Via U.S. Census Bureau
+Access via API or download
+Has State, date (year) info
+Both are from trustworthy, oft-used sources and can be merged and compared on the “state” and potentially date data.
+
+Timeline
+Date
+Tasks done
+3.21 (wk 1-2)
+Data acquisition - Accessing datasets via API, downloading and storing raw data
+3.28 (wk 3)
+Data quality assessment and cleaning - Identify missing/inconsistent values, address by supplementing with other sources or other strategies
+4.11 (wk 4-5)
+Data integration and analysis - summary stats, charts and visualizations
+5.2 (wk 6-9)
+Split writing for final submission deliverable
+
