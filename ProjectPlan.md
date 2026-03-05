@@ -17,8 +17,11 @@ Mehr & Jonathan: Conduct analysis and create visualizations, document steps need
 
 ## Research question
 Throughout this project, we aim to answer the following questions:
+
 What is the relationship between unemployment rates and median household income in the United States?
+
 How does it vary by state and time?
+
 These questions will be addressed through the integration and analysis of our datasets that capture economic indicators across many time periods and states. 
 
 
