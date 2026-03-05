@@ -51,5 +51,10 @@ Both datasets are from trustworthy, widely used sources and can be merged and co
 | 4.11 (wk 4–5) | Data integration and analysis – Summary statistics, charts, and visualizations |
 | 5.2 (wk 6–9)  | Split writing for final submission deliverable |
 
-Constraints:
+## Constraints:
 Throughout our project there may be several limitations that have an impact. The datasets may include different time periods and/or have different reporting frequencies which can cause some integration difficulties. The missing values may also be a constraint as it will need thorough data cleaning then. Finally, there may be differences in naming conventions such as states may be abbreviated instead of the full names. Finally, one of the biggest constraints that may be prevalent in our project is if there are issues in our datasets, we may not be able to find other datasets we can use in this project. The datasets we have currently come from government sources and has been collected for many years. This makes them reliable but it also means that finding alternative sources with the same credibility and accuracy may be a challenge.
+
+## Gaps:
+Our data is restricted to data in the United States, so our conclusions will have limited reach. Additionally, our team would love to integrate SQL into this project for data processing and analysis, so we will need to do our own research and learn along in class.
+Making conclusions based on each state’s relationship to these statistics will also require careful handling, as we do not want to misrepresent any state in our analysis.
+
