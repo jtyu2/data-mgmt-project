@@ -43,3 +43,8 @@ Both datasets are from trustworthy, widely used sources and can be merged and co
 | 3.28 (wk 3)   | Data quality assessment and cleaning – Identify missing/inconsistent values and address by supplementing with other sources or other strategies |
 | 4.11 (wk 4–5) | Data integration and analysis – Summary statistics, charts, and visualizations |
 | 5.2 (wk 6–9)  | Split writing for final submission deliverable |
+
+
+Constraints:
+Throughout our project there may be several limitations that have an impact. The datasets may include different time period and/or have different reporting frequencies which can cause some integration difficulties. The missing values may also be a constraint as it will need thorough data cleaning then. Finally, there may be differences in naming conventions such as states may be abbreviated instead of the full names. 
+
