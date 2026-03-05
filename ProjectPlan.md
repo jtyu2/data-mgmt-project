@@ -46,5 +46,4 @@ Both datasets are from trustworthy, widely used sources and can be merged and co
 
 
 Constraints:
-Throughout our project there may be several limitations that have an impact. The datasets may include different time period and/or have different reporting frequencies which can cause some integration difficulties. The missing values may also be a constraint as it will need thorough data cleaning then. Finally, there may be differences in naming conventions such as states may be abbreviated instead of the full names. 
-
+Throughout our project there may be several limitations that have an impact. The datasets may include different time periods and/or have different reporting frequencies which can cause some integration difficulties. The missing values may also be a constraint as it will need thorough data cleaning then. Finally, there may be differences in naming conventions such as states may be abbreviated instead of the full names. Finally, one of the biggest constraints that may be prevalent in our project is if there are issues in our datasets, we may not be able to find other datasets we can use in this project. The datasets we have currently come from government sources and has been collected for many years. This makes them reliable but it also means that finding alternative sources with the same credibility and accuracy may be a challenge.
