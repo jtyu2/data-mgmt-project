@@ -10,10 +10,10 @@ Overall, this project will allow us to apply practices that we have been taught 
 :) - Mehr Bhatia and Jonathan Yu
 
 Mehr: Find reliable datasets, Access datasets through APIs, define directory structure, store datasets, data cleaning
-
 Jonathan: Help fill missing values, work on initial data integration including summary stats
-
 Mehr & Jonathan: Conduct analysis and create visualizations, document steps need to reproduce the analysis
+
+This is how we have split up the work for now, but it is subject to change as the project goes on. We have been structuring our work through 30-60 minute online meetings to touch base and set short-term deadlines, and keeping in touch to make sure we complete our parts by the set deadlines. 
 
 ## Research question
 Throughout this project, we aim to answer the following questions:
@@ -22,7 +22,7 @@ What is the relationship between unemployment rates and median household income 
 
 How does it vary by state and time?
 
-These questions will be addressed through the integration and analysis of our datasets that capture economic indicators across many time periods and states. 
+These questions will be addressed through the integration and analysis of our datasets that capture economic indicators across many time periods and states. In addition, some supplemental qualitative research will be conducted to guide our hypotheses and grant an understanding of underlying drivers of this relationship.
 
 
 ## Datasets
