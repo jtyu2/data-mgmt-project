@@ -32,11 +32,13 @@ These questions will be addressed through the integration and analysis of our da
   - Source: Federal Reserve Economic Data (FRED)  
   - Access: API  
   - Fields available: State, date  
+  - link: https://fred.stlouisfed.org/series/UNRATE
 
 - **Median Household Income**
   - Source: U.S. Census Bureau  
   - Access: API or downloadable datasets  
   - Fields available: State, year (date)  
+  - example link: https://data.census.gov/table/ACSST1Y2024.S1901?q=median+household+income+state (using this or datasets from other years)
 
 Both datasets are from trustworthy, widely used sources and can be merged and compared using **state** and potentially **date/year** fields.
 
