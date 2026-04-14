@@ -1,0 +1,14 @@
+Module 2: FilesStorage and organization (cf. Modules 2): Select and describe what kind of files and data types you are working with. Describe a specific storage and organization strategy. This may include use of tabular, relational, or semi-structured models. Describe the specific organization strategy you are using. 
+
+Our project uses a structured, reproducible file organization strategy that is designed to support efficiency integration, management, and analysis. 
+
+Data Types and Format- We work mostly with tabular data, stored in a CSV format. We chose the CSV format because it is lightweight, readable by humans, and it is easily processed using Python. We also have Python Scripts for the data acquisition and cleaning and Markdown files for our documentation and reporting what we find. We also have files for our metadata. This combination supports humans being able to read and understand our work as well as machine processing. 
+
+Storage Model-The project uses a tabular data model where the datasets have rows and columns which are observations and variables, respectively. After we integrate the two datasets, we have variables such as state, year, unemployment rate, and median household income. All of these variables are consistent, for example states have the same format-either abbreviations or full name. This structure ensures that the filtering and statistical analysis is efficient and easy to understand. 
+
+Directory Structure-Still working on this
+
+Organization Strategy- Our organization strategy follows the best practices for reproducibility and understanding
+ 
+-Raw and Processed Data- We have separated our raw data and processed data. This is essential for transparency and reproducibility in a workflow. Raw data represents the original dataset and by keeping a separate unchanged file ensures we have a trusted baseline and we can restart our analysis if needed. It also allows anyone else to start from the exact same dataset and run the scripts we created to receive the same product. It also makes clear what changes we made and our transformation process is clearly displayed. 
+(Still working on this section)
