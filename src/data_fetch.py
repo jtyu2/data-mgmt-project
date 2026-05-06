@@ -2,6 +2,7 @@ import pandas as pd
 import requests
 import time
 import sys
+import hashlib
 
 STATES = {
     'AL': 'Alabama', 'AK': 'Alaska', 'AZ': 'Arizona', 'AR': 'Arkansas', 'CA': 'California',
@@ -51,6 +52,21 @@ def get_census_data(year, api_key):
         print(f"Failed to fetch Census data for {year}")
         return pd.DataFrame()
 
+def generate_sha256_checksum(filepath): #calculates the SHA-256 checksum of a file and saves it to a .sha256 file
+    sha256_hash = hashlib.sha256()
+    with open(filepath, "rb") as f:
+        # read the file in chunks
+        for byte_block in iter(lambda: f.read(4096), b""):
+            sha256_hash.update(byte_block)
+            
+    checksum = sha256_hash.hexdigest()
+    checksum_filepath = f"{filepath}.sha256"
+    
+    with open(checksum_filepath, "w") as f:
+        f.write(checksum)
+        
+    print(f"Saved SHA-256 checksum to '{checksum_filepath}'")
+    return checksum
 
 # main fetching function
 def main(fred_key_path, census_key_path, fred_out_path, census_out_path):
@@ -69,7 +85,9 @@ def main(fred_key_path, census_key_path, fred_out_path, census_out_path):
     fred_df = pd.concat(fred_dfs, ignore_index=True)
     fred_df.to_csv(fred_out_path, index=False)
     print(f"Saved FRED data to '{fred_out_path}'")
-
+    
+    generate_sha256_checksum(fred_out_path)
+    
     # fetching Census Data
     print("Fetching Census Data...")
     census_dfs = []
@@ -81,6 +99,9 @@ def main(fred_key_path, census_key_path, fred_out_path, census_out_path):
     census_df.to_csv(census_out_path, index=False)
     print(f"Saved Census data to '{census_out_path}'")
 
+    generate_sha256_checksum(census_out_path)
+
+    
 #snakemake deployment
 if __name__ == "__main__":
     if len(sys.argv) != 5:
