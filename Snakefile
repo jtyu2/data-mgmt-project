@@ -12,6 +12,8 @@ rule fetch_data:
     output:
         fred_raw="data/raw/raw_fred_data.csv",
         census_raw="data/raw/raw_census_data.csv"
+        fred_hash="data/raw/raw_fred_data.csv.sha256",
+        census_hash="data/raw/raw_census_data.csv.sha256"
     shell:
         "python src/data_fetch.py {input.fred_key} {input.census_key} {output.fred_raw} {output.census_raw}"
 
