@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "name": "State-Level Unemployment and Median Household Income (2018-2022)",
+  "description": "An automated data pipeline that fetches, cleans, and merges macroeconomic data from the FRED API and U.S. Census Bureau to analyze the relationship between state-level unemployment and median household income.",
+  "creator": {
+    "@type": "Person",
+    "name": "Jonathan Yu and Mehr Bhatia"
+  },
+  "datePublished": "2026-05-06",
+  "license": "https://opensource.org/licenses/MIT",
+  "isAccessibleForFree": true,
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "CSV",
+      "contentUrl": "data/processed/merged_data.csv"
+    }
+  ],
+  "sourceOrganization": [
+    {
+      "@type": "Organization",
+      "name": "Federal Reserve Bank of St. Louis (FRED)"
+    },
+    {
+      "@type": "Organization",
+      "name": "United States Census Bureau"
+    }
+  ]
+}
